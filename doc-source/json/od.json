@@ -1,8 +1,7 @@
 {
   "category_age": {
     "id": "age",
-    "short_description": "Age of the person.",
-    "long_description": "The age bracket of the respondent.",
+    "description": "The age bracket of the respondent.",
     "questions": {
       "how_old": {
         "type": "select-one",
@@ -101,8 +100,7 @@
   },
   "category_disability": {
     "id": "disability",
-    "short_description": "The person's disabilities.",
-    "long_description": "The disabilities a person identifies as having based on the definitions given by the ADA.",
+    "description": "The disabilities a person identifies as having based on the definitions given by the ADA.",
     "questions": {
       "identified_disability": {
         "type": "select-multiple",
@@ -195,8 +193,7 @@
   },
   "category_education": {
     "id": "education",
-    "short_description": "The person's education",
-    "long_description": "The respondent's highest level of educational attainment.",
+    "description": "The respondent's highest level of educational attainment.",
     "questions": {
       "education_level": {
         "type": "select-one",
@@ -243,8 +240,7 @@
   },
   "category_gender": {
     "id": "gender",
-    "short_description": "The person's gender identity.",
-    "long_description": "The respondent's gender identification.",
+    "description": "The respondent's gender identification.",
     "questions": {
       "transgender_identity": {
         "type": "select-one",
@@ -494,8 +490,7 @@
   },
   "category_language": {
     "id": "language",
-    "short_description": "The person's languages.",
-    "long_description": "The respondent's languages and fluency levels.",
+    "description": "The respondent's languages and fluency levels.",
     "questions": {
       "languages": {
         "type": "double-select",
@@ -539,8 +534,7 @@
   },
   "category_location": {
     "id": "location",
-    "short_description": "The person's location.",
-    "long_description": "The respondent's country of residence and local environment.",
+    "description": "The respondent's country of residence and local environment.",
     "questions": {
       "country": {
         "type": "country",
@@ -579,8 +573,7 @@
   },
   "category_race": {
     "id": "race",
-    "short_description": "The person's race.",
-    "long_description": "The respondent's racial/ethnic background.",
+    "description": "The respondent's racial/ethnic background.",
     "questions": {
       "poc_identity": {
         "type": "select-one",
@@ -658,8 +651,7 @@
   },
   "category_religion": {
     "id": "religion",
-    "short_description": "The person's religious beliefs.",
-    "long_description": "The respondent's religious beliefs and identification.",
+    "description": "The respondent's religious beliefs and identification.",
     "questions": {
       "practicing": {
         "type": "select-one",
@@ -712,8 +704,7 @@
   },
   "category_socioeconomic": {
     "id": "socioeconomic",
-    "short_description": "The person's socioeconomic class.",
-    "long_description": "The respondent's socioeconomic background and current class.",
+    "description": "The respondent's socioeconomic background and current class.",
     "questions": {
       "class_childhood": {
         "type": "select-one",
@@ -781,8 +772,7 @@
   },
   "category_sexual_romantic": {
     "id": "sexual-romantic",
-    "short_description": "The person's sexual and romantic orientation.",
-    "long_description": "The respondent's sexual and romantic orientation.",
+    "description": "The respondent's sexual and romantic orientation.",
     "questions": {
       "orientation_sexual": {
         "type": "select-multiple",
