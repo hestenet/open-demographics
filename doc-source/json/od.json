@@ -1,17 +1,17 @@
 {
-  "category-age": {
+  "category_age": {
     "id": "age",
-    "short-description": "Age of the person.",
-    "long-description": "The age bracket of the respondent.",
+    "short_description": "Age of the person.",
+    "long_description": "The age bracket of the respondent.",
     "questions": {
-      "how-old": {
+      "how_old": {
         "type": "select-one",
-        "self-identify": "false",
-        "prefer-not-to-answer": "true",
-        "does-not-apply": "true",
+        "self_identify": "false",
+        "prefer_not_to_answer": "true",
+        "does_not_apply": "true",
         "prompt": "How old are you?",
         "choices": {
-          "full-set": [
+          "full_set": [
             {
               "id": "0-15",
               "value": "0-15",
@@ -68,7 +68,7 @@
               "label": "Prefer not to answer"
             }
           ],
-          "short-set": [
+          "short_set": [
             {
               "id": "0-19",
               "value": "0-19",
@@ -99,19 +99,19 @@
       }
     }
   },
-  "category-disability": {
+  "category_disability": {
     "id": "disability",
-    "short-description": "The person's disabilities.",
-    "long-description": "The disabilities a person identifies as having based on the definitions given by the ADA.",
+    "short_description": "The person's disabilities.",
+    "long_description": "The disabilities a person identifies as having based on the definitions given by the ADA.",
     "questions": {
-      "identified-disability": {
+      "identified_disability": {
         "type": "select-multiple",
-        "self-identify": "true",
-        "prefer-not-to-answer": "true",
-        "does-not-apply": "true",
+        "self_identify": "true",
+        "prefer_not_to_answer": "true",
+        "does_not_apply": "true",
         "prompt": "Do you identify as having a disability as defined under the Americans with Disabilities Act - https://adata.org/faq/what-definition-disability-under-ada?",
         "choices": {
-          "full-set": [
+          "full_set": [
             {
               "id": "d-cog",
               "value": "cognitive",
@@ -160,14 +160,14 @@
           ]
         }
       },
-      "affects-work": {
+      "affects_work": {
         "type": "select-one",
-        "self-identify": "false",
-        "prefer-not-to-answer": "true",
-        "does-not-apply": "true",
+        "self_identify": "false",
+        "prefer_not_to_answer": "true",
+        "does_not_apply": "true",
         "prompt": "Does your disability affect how you work?",
         "choices": {
-          "full-set": [
+          "full_set": [
             {
               "id": "yes",
               "value": "yes",
@@ -193,19 +193,19 @@
       }
     }
   },
-  "category-education": {
+  "category_education": {
     "id": "education",
-    "short-description": "The person's education",
-    "long-description": "The respondent's highest level of educational attainment.",
+    "short_description": "The person's education",
+    "long_description": "The respondent's highest level of educational attainment.",
     "questions": {
-      "education-level": {
+      "education_level": {
         "type": "select-one",
-        "self-identify": "false",
-        "prefer-not-to-answer": "true",
-        "does-not-apply": "false",
+        "self_identify": "false",
+        "prefer_not_to_answer": "true",
+        "does_not_apply": "false",
         "prompt": "What is your education level?",
         "choices": {
-          "full-set": [
+          "full_set": [
             {
               "id": "e-high",
               "value": "high-school",
@@ -241,19 +241,19 @@
       }
     }
   },
-  "category-gender": {
+  "category_gender": {
     "id": "gender",
-    "short-description": "The person's gender identity.",
-    "long-description": "The respondent's gender identification.",
+    "short_description": "The person's gender identity.",
+    "long_description": "The respondent's gender identification.",
     "questions": {
-      "transgender-identity": {
+      "transgender_identity": {
         "type": "select-one",
-        "self-identify": "false",
-        "prefer-not-to-answer": "false",
-        "does-not-apply": "false",
+        "self_identify": "false",
+        "prefer_not_to_answer": "false",
+        "does_not_apply": "false",
         "prompt": "Do you consider yourself to be transgender?",
         "choices": {
-          "full-set": [
+          "full_set": [
             {
               "id": "yes",
               "value": "yes",
@@ -272,14 +272,14 @@
           ]
         }
       },
-      "gender-diversity": {
+      "gender_diversity": {
         "type": "select-one",
-        "self-identify": "false",
-        "prefer-not-to-answer": "false",
-        "does-not-apply": "false",
+        "self_identify": "false",
+        "prefer_not_to_answer": "false",
+        "does_not_apply": "false",
         "prompt": "Do you consider yourself to be gender non-conforming, gender diverse, gender variant, or gender expansive?",
         "choices": {
-          "full-set": [
+          "full_set": [
             {
               "id": "yes",
               "value": "yes",
@@ -300,12 +300,12 @@
       },
       "intersex": {
         "type": "select-one",
-        "self-identify": "false",
-        "prefer-not-to-answer": "false",
-        "does-not-apply": "false",
+        "self_identify": "false",
+        "prefer_not_to_answer": "false",
+        "does_not_apply": "false",
         "prompt": "Are you intersex?",
         "choices": {
-          "full-set": [
+          "full_set": [
             {
               "id": "yes",
               "value": "yes",
@@ -324,14 +324,14 @@
           ]
         }
       },
-      "gender-spectrum": {
+      "gender_spectrum": {
         "type": "select-multiple",
-        "self-identify": "true",
-        "prefer-not-to-answer": "true",
-        "does-not-apply": "false",
+        "self_identify": "true",
+        "prefer_not_to_answer": "true",
+        "does_not_apply": "false",
         "prompt": "Where do you identify on the gender spectrum (check all that apply)?",
         "choices": {
-          "full-set": [
+          "full_set": [
             {
               "id": "agender-genderless",
               "value": "agender-genderless",
@@ -437,7 +437,6 @@
               "value": "man",
               "label": "Man"
             },
-            null,
             {
               "id": "maverique",
               "value": "maverique",
@@ -493,19 +492,19 @@
       }
     }
   },
-  "category-language": {
+  "category_language": {
     "id": "language",
-    "short-description": "The person's languages.",
-    "long-description": "The respondent's languages and fluency levels.",
+    "short_description": "The person's languages.",
+    "long_description": "The respondent's languages and fluency levels.",
     "questions": {
       "languages": {
         "type": "double-select",
-        "self-identify": "false",
-        "prefer-not-to-answer": "false",
-        "does-not-apply": "false",
+        "self_identify": "false",
+        "prefer_not_to_answer": "false",
+        "does_not_apply": "false",
         "prompt": "Choose the language(s) you are conversant in and identify your proficiency",
         "choices": {
-          "language-known": [
+          "language_known": [
             {
               "id": "language",
               "value": "language",
@@ -538,26 +537,26 @@
       }
     }
   },
-  "category-location": {
+  "category_location": {
     "id": "location",
-    "short-description": "The person's location.",
-    "long-description": "The respondent's country of residence and local environment.",
+    "short_description": "The person's location.",
+    "long_description": "The respondent's country of residence and local environment.",
     "questions": {
       "country": {
         "type": "country",
-        "self-identify": "false",
-        "prefer-not-to-answer": "false",
-        "does-not-apply": "false",
+        "self_identify": "false",
+        "prefer_not_to_answer": "false",
+        "does_not_apply": "false",
         "prompt": "Please choose your country of residence"
       },
-      "local-environment": {
+      "local_environment": {
         "type": "select-one",
-        "self-identify": "false",
-        "prefer-not-to-answer": "false",
-        "does-not-apply": "false",
+        "self_identify": "false",
+        "prefer_not_to_answer": "false",
+        "does_not_apply": "false",
         "prompt": "Which word best describes the area where you live and work?",
         "choices": {
-          "full-set": [
+          "full_set": [
             {
               "id": "rural",
               "value": "rural",
@@ -578,19 +577,19 @@
       }
     }
   },
-  "category-race": {
+  "category_race": {
     "id": "race",
-    "short-description": "The person's race.",
-    "long-description": "The respondent's racial/ethnic background.",
+    "short_description": "The person's race.",
+    "long_description": "The respondent's racial/ethnic background.",
     "questions": {
-      "poc-identity": {
+      "poc_identity": {
         "type": "select-one",
-        "self-identify": "false",
-        "prefer-not-to-answer": "false",
-        "does-not-apply": "false",
+        "self_identify": "false",
+        "prefer_not_to_answer": "false",
+        "does_not_apply": "false",
         "prompt": "Do you identify as a person of color?",
         "choices": {
-          "full-set": [
+          "full_set": [
             {
               "id": "yes",
               "value": "yes",
@@ -604,14 +603,14 @@
           ]
         }
       },
-      "racial-identity": {
+      "racial_identity": {
         "type": "select-multiple",
-        "self-identify": "true",
-        "prefer-not-to-answer": "true",
-        "does-not-apply": "false",
+        "self_identify": "true",
+        "prefer_not_to_answer": "true",
+        "does_not_apply": "false",
         "prompt": "With which racial background(s) do you identify? (check all that apply)",
         "choices": {
-          "full-set": [
+          "full_set": [
             {
               "id": "asian",
               "value": "asian",
@@ -657,19 +656,19 @@
       }
     }
   },
-  "category-religion": {
+  "category_religion": {
     "id": "religion",
-    "short-description": "The person's religious beliefs.",
-    "long-description": "The respondent's religious beliefs and identification.",
+    "short_description": "The person's religious beliefs.",
+    "long_description": "The respondent's religious beliefs and identification.",
     "questions": {
       "practicing": {
         "type": "select-one",
-        "self-identify": "false",
-        "prefer-not-to-answer": "false",
-        "does-not-apply": "false",
+        "self_identify": "false",
+        "prefer_not_to_answer": "false",
+        "does_not_apply": "false",
         "prompt": "Do you practice, worship, or observe a particular religion (or agnostic/atheist theology)?",
         "choices": {
-          "full-set": [
+          "full_set": [
             {
               "id": "yes",
               "value": "yes",
@@ -683,14 +682,14 @@
           ]
         }
       },
-      "religious-minority": {
+      "religious_minority": {
         "type": "select-one",
-        "self-identify": "false",
-        "prefer-not-to-answer": "false",
-        "does-not-apply": "true",
+        "self_identify": "false",
+        "prefer_not_to_answer": "false",
+        "does_not_apply": "true",
         "prompt": "Do you identify as a minority because of your religion (or lack thereof)?",
         "choices": {
-          "full-set": [
+          "full_set": [
             {
               "id": "yes",
               "value": "yes",
@@ -711,19 +710,19 @@
       }
     }
   },
-  "category-socioeconomic": {
+  "category_socioeconomic": {
     "id": "socioeconomic",
-    "short-description": "The person's socioeconomic class.",
-    "long-description": "The respondent's socioeconomic background and current class.",
+    "short_description": "The person's socioeconomic class.",
+    "long_description": "The respondent's socioeconomic background and current class.",
     "questions": {
-      "class-childhood": {
+      "class_childhood": {
         "type": "select-one",
-        "self-identify": "false",
-        "prefer-not-to-answer": "false",
-        "does-not-apply": "false",
+        "self_identify": "false",
+        "prefer_not_to_answer": "false",
+        "does_not_apply": "false",
         "prompt": "Thinking about your childhood, which socioeconomic class did you identify with?",
         "choices": {
-          "full-set": [
+          "full_set": [
             {
               "id": "working",
               "value": "working",
@@ -747,14 +746,14 @@
           ]
         }
       },
-      "class-current": {
+      "class_current": {
         "type": "select-one",
-        "self-identify": "false",
-        "prefer-not-to-answer": "false",
-        "does-not-apply": "false",
+        "self_identify": "false",
+        "prefer_not_to_answer": "false",
+        "does_not_apply": "false",
         "prompt": "Thinking about your current situation, which socioeconomic class do you identify with?",
         "choices": {
-          "full-set": [
+          "full_set": [
             {
               "id": "working",
               "value": "working",
@@ -780,19 +779,19 @@
       }
     }
   },
-  "category-sexual-romantic": {
+  "category_sexual_romantic": {
     "id": "sexual-romantic",
-    "short-description": "The person's sexual and romantic orientation.",
-    "long-description": "The respondent's sexual and romantic orientation.",
+    "short_description": "The person's sexual and romantic orientation.",
+    "long_description": "The respondent's sexual and romantic orientation.",
     "questions": {
-      "orientation-sexual": {
+      "orientation_sexual": {
         "type": "select-multiple",
-        "self-identify": "true",
-        "prefer-not-to-answer": "true",
-        "does-not-apply": "false",
+        "self_identify": "true",
+        "prefer_not_to_answer": "true",
+        "does_not_apply": "false",
         "prompt": "What is your sexual orientation (check all that apply)?",
         "choices": {
-          "full-set": [
+          "full_set": [
             {
               "id": "aceflux",
               "value": "aceflux",
@@ -896,14 +895,14 @@
           ]
         }
       },
-      "orientation-romantic": {
+      "orientation_romantic": {
         "type": "select-multiple",
-        "self-identify": "true",
-        "prefer-not-to-answer": "true",
-        "does-not-apply": "false",
+        "self_identify": "true",
+        "prefer_not_to_answer": "true",
+        "does_not_apply": "false",
         "prompt": "What is your romantic orientation (check all that apply)?",
         "choices": {
-          "full-set": [
+          "full_set": [
             {
               "id": "androgyneromantic",
               "value": "androgyneromantic",
