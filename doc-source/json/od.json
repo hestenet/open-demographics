@@ -4,7 +4,7 @@
     "description": "The age bracket of the respondent.",
     "questions": {
       "how_old": {
-        "type": "select-one",
+        "type": "select_one",
         "self_identify": "false",
         "prefer_not_to_answer": "true",
         "does_not_apply": "true",
@@ -103,7 +103,7 @@
     "description": "The disabilities a person identifies as having based on the definitions given by the ADA.",
     "questions": {
       "identified_disability": {
-        "type": "select-multiple",
+        "type": "select_multiple",
         "self_identify": "true",
         "prefer_not_to_answer": "true",
         "does_not_apply": "true",
@@ -159,7 +159,7 @@
         }
       },
       "affects_work": {
-        "type": "select-one",
+        "type": "select_one",
         "self_identify": "false",
         "prefer_not_to_answer": "true",
         "does_not_apply": "true",
@@ -196,7 +196,7 @@
     "description": "The respondent's highest level of educational attainment.",
     "questions": {
       "education_level": {
-        "type": "select-one",
+        "type": "select_one",
         "self_identify": "false",
         "prefer_not_to_answer": "true",
         "does_not_apply": "false",
@@ -243,7 +243,7 @@
     "description": "The respondent's gender identification.",
     "questions": {
       "transgender_identity": {
-        "type": "select-one",
+        "type": "select_one",
         "self_identify": "false",
         "prefer_not_to_answer": "false",
         "does_not_apply": "false",
@@ -269,7 +269,7 @@
         }
       },
       "gender_diversity": {
-        "type": "select-one",
+        "type": "select_one",
         "self_identify": "false",
         "prefer_not_to_answer": "false",
         "does_not_apply": "false",
@@ -295,7 +295,7 @@
         }
       },
       "intersex": {
-        "type": "select-one",
+        "type": "select_one",
         "self_identify": "false",
         "prefer_not_to_answer": "false",
         "does_not_apply": "false",
@@ -321,7 +321,7 @@
         }
       },
       "gender_spectrum": {
-        "type": "select-multiple",
+        "type": "select_multiple",
         "self_identify": "true",
         "prefer_not_to_answer": "true",
         "does_not_apply": "false",
@@ -493,7 +493,7 @@
     "description": "The respondent's languages and fluency levels.",
     "questions": {
       "languages": {
-        "type": "double-select",
+        "type": "double_select",
         "self_identify": "false",
         "prefer_not_to_answer": "false",
         "does_not_apply": "false",
@@ -544,7 +544,7 @@
         "prompt": "Please choose your country of residence"
       },
       "local_environment": {
-        "type": "select-one",
+        "type": "select_one",
         "self_identify": "false",
         "prefer_not_to_answer": "false",
         "does_not_apply": "false",
@@ -576,7 +576,7 @@
     "description": "The respondent's racial/ethnic background.",
     "questions": {
       "poc_identity": {
-        "type": "select-one",
+        "type": "select_one",
         "self_identify": "false",
         "prefer_not_to_answer": "false",
         "does_not_apply": "false",
@@ -597,7 +597,7 @@
         }
       },
       "racial_identity": {
-        "type": "select-multiple",
+        "type": "select_multiple",
         "self_identify": "true",
         "prefer_not_to_answer": "true",
         "does_not_apply": "false",
@@ -654,7 +654,7 @@
     "description": "The respondent's religious beliefs and identification.",
     "questions": {
       "practicing": {
-        "type": "select-one",
+        "type": "select_one",
         "self_identify": "false",
         "prefer_not_to_answer": "false",
         "does_not_apply": "false",
@@ -675,7 +675,7 @@
         }
       },
       "religious_minority": {
-        "type": "select-one",
+        "type": "select_one",
         "self_identify": "false",
         "prefer_not_to_answer": "false",
         "does_not_apply": "true",
@@ -707,7 +707,7 @@
     "description": "The respondent's socioeconomic background and current class.",
     "questions": {
       "class_childhood": {
-        "type": "select-one",
+        "type": "select_one",
         "self_identify": "false",
         "prefer_not_to_answer": "false",
         "does_not_apply": "false",
@@ -738,7 +738,7 @@
         }
       },
       "class_current": {
-        "type": "select-one",
+        "type": "select_one",
         "self_identify": "false",
         "prefer_not_to_answer": "false",
         "does_not_apply": "false",
@@ -775,7 +775,7 @@
     "description": "The respondent's sexual and romantic orientation.",
     "questions": {
       "orientation_sexual": {
-        "type": "select-multiple",
+        "type": "select_multiple",
         "self_identify": "true",
         "prefer_not_to_answer": "true",
         "does_not_apply": "false",
@@ -886,7 +886,7 @@
         }
       },
       "orientation_romantic": {
-        "type": "select-multiple",
+        "type": "select_multiple",
         "self_identify": "true",
         "prefer_not_to_answer": "true",
         "does_not_apply": "false",
