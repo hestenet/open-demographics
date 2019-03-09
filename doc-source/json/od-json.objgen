@@ -221,7 +221,6 @@ category_race
           native-american = Native American
           pacific-islander = Pacific Islander
           white = White
-          self-identify = Self Identify:
           prefer-not-to-answer = Prefer not to answer
 category_religion
   id = religion
@@ -308,7 +307,6 @@ category_sexual_romantic
           straight = Straight
           trisexual = Trisexual
           womasexual-gynesexual = Womasexual/gynesexual
-          self-identify = Self Identify:
           prefer-not-to-answer = Prefer not to answer
     orientation_romantic
       type = select_multiple
@@ -338,5 +336,4 @@ category_sexual_romantic
           straight = Straight
           triromantic = triromantic
           womanromantic-gyneromantic = Womanromantic/gyneromantic
-          self-identify = Self Identify:
           prefer-not-to-answer = Prefer not to answer

@@ -268,7 +268,6 @@
             "native-american": "Native American",
             "pacific-islander": "Pacific Islander",
             "white": "White",
-            "self-identify": "Self Identify:",
             "prefer-not-to-answer": "Prefer not to answer"
           }
         }
@@ -376,7 +375,6 @@
             "straight": "Straight",
             "trisexual": "Trisexual",
             "womasexual-gynesexual": "Womasexual/gynesexual",
-            "self-identify": "Self Identify:",
             "prefer-not-to-answer": "Prefer not to answer"
           }
         }
@@ -409,7 +407,6 @@
             "straight": "Straight",
             "triromantic": "triromantic",
             "womanromantic-gyneromantic": "Womanromantic/gyneromantic",
-            "self-identify": "Self Identify:",
             "prefer-not-to-answer": "Prefer not to answer"
           }
         }
